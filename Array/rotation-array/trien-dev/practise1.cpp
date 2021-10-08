@@ -2,8 +2,6 @@
 
 #include<conio.h>
 
-#include"nhapxuat.h"
-
 using namespace std;
 void nhapmang(int a[], int n) {
   for (int i = 0; i < n; i++) {
