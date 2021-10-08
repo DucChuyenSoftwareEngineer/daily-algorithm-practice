@@ -16,6 +16,23 @@ void xuatmang(int a[], int n) {
   cout<<endl;
 }
 
+void Tachmang(int a[],int b[],int d){
+	for (int i = 0; i < d; i++) {
+    b[i] = a[i]; //lay gia tri phan tu tach ra cho vao mang khac
+  }
+}
+
+void Daymang(int a[],int n,int d){
+	  for (int j = 0; j < n - d; j++) {
+    a[j] = a[j + d];
+  }
+}
+
+void Hoanthien(int a[],int b[],int n,int d){
+	  for (int k = 0; k < d; k++) {
+    a[n - d + k] = b[k];
+  }
+}
 int main() {
   int n,d;
   cout << "nhap n :";
@@ -25,17 +42,11 @@ int main() {
   cout<<"nhap d: ";
   cin>>d;
   int b[d];
-  for (int i = 0; i < d; i++) {
-    b[i] = a[i]; //lay gia tri phan tu tach ra cho vao mang khac
-  }
+  Tachmang(a,b,d);
+  Daymang(a,n,d);
+  Hoanthien(a,b,n,d); 
   
-  for (int j = 0; j < n - d; j++) {
-    a[j] = a[j + d];
-  }
-  
-  for (int k = 0; k < d; k++) {
-    a[n - d + k] = b[k];
-  }
+
   xuatmang(a, n);
   
 }
