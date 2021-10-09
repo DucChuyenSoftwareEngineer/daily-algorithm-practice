@@ -22,11 +22,11 @@ PROBLEM REQUIREMENTS:
      
      ![Capture122](https://user-images.githubusercontent.com/89003971/136580953-30ba8720-4964-47ae-9999-ce8f3bc0aea7.PNG)
 
-     Cuối cùng là sau khi đã đẩy toàn bộ các giá trị phần tử đứng sau lên trước thì bây giờ ta sẽ gán toàn bộ giá trị mảng ta tạo để lưu giá trị bị lấy ra lúc đầu (1 2 )vào những      vị trí còn lại của mảng .
+     Cuối cùng là sau khi đã đẩy toàn bộ các giá trị phần tử đứng sau lên trước thì bây giờ ta sẽ gán toàn bộ giá trị đứng trước được lưu trữ ở mảng mới tạo lúc đầu vào những vị trí đứng sau của mảng chính ,VD(1 2 )gắn vào những vị trí sau của mảng .
    
-   Finally, after pushing all the values of the following elements to the front, we will now assign all the array values ​​we created to save the original removed value (1 2 ) in the remaining positions. of array .
+  Finally, after pushing all the following element values to the front, we will now assign all previous values stored in the newly created array to the following positions of the main array, eg (1 2 ) append to the following positions of the array . .
      
      ![Capture 111](https://user-images.githubusercontent.com/89003971/136581275-3e8ea099-7f94-46ca-bf43-221d47a96a8a.PNG)
 
-[xinchao.txt]
-(https://github.com/DucChuyenSoftwareEngineer/daily-algorithm-practice/files/7312354/xinchao.txt)
+[pratise1.txt](https://github.com/DucChuyenSoftwareEngineer/daily-algorithm-practice/files/7314799/pratise1.txt)
+
