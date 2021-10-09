@@ -24,7 +24,7 @@ PROBLEM REQUIREMENTS:
 
      Cuối cùng là sau khi đã đẩy toàn bộ các giá trị phần tử đứng sau lên trước thì bây giờ ta sẽ gán toàn bộ giá trị đứng trước được lưu trữ ở mảng mới tạo lúc đầu vào những vị trí đứng sau của mảng chính ,VD(1 2 )gắn vào những vị trí sau của mảng .
    
-  Finally, after pushing all the following element values to the front, we will now assign all previous values stored in the newly created array to the following positions of the main array, eg (1 2 ) append to the following positions of the array . .
+     Finally, after pushing all the following element values to the front, we will now assign all previous values stored in the newly created array to the following positions of the main array, eg (1 2 ) append to the following positions of the array . .
      
    ![Capture 111](https://user-images.githubusercontent.com/89003971/136639826-c1f16b27-884c-430e-93b4-bdc3ff7f9a83.PNG)
 
