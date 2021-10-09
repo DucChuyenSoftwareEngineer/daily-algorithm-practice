@@ -26,7 +26,9 @@ PROBLEM REQUIREMENTS:
    
   Finally, after pushing all the following element values to the front, we will now assign all previous values stored in the newly created array to the following positions of the main array, eg (1 2 ) append to the following positions of the array . .
      
-     ![Capture 111](https://user-images.githubusercontent.com/89003971/136581275-3e8ea099-7f94-46ca-bf43-221d47a96a8a.PNG)
+   ![Capture 111](https://user-images.githubusercontent.com/89003971/136639826-c1f16b27-884c-430e-93b4-bdc3ff7f9a83.PNG)
+
+
 
 [pratise1.txt](https://github.com/DucChuyenSoftwareEngineer/daily-algorithm-practice/files/7314799/pratise1.txt)
 
